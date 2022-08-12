@@ -1,12 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-dist
-/dist
 node_modules
 /node_modules
-uploads/*.jpg
-uploads/*.png
 
 /.pnp
 .pnp.js
@@ -15,7 +11,7 @@ uploads/*.png
 /coverage
 
 # production
-/build
+build
 
 # misc
 .DS_Store

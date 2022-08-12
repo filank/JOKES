@@ -123,3 +123,32 @@ main {
   font-size: 20px;
   margin-right: 7px;
 }
+
+/* **************footer************* */
+
+.backgroundFooterImage {
+  min-height: 20vh;
+  background-image: url('../public/assets/bitmap_2.png');
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+}
+.backgroundFooterImage p {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 13px;
+  margin-left: 150px;
+}
+.submitJoke {
+  color: #cfb995;
+  font-weight: 400;
+  font-size: 13px;
+  margin-left: 150px;
+  margin-top: 15px;
+  align-items: center;
+  display: flex;
+}
+.fa-arrow-right-long {
+  margin-left: 5px;
+  font-size: 20px;
+}
