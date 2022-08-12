@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  min-height: 70vh;
+}
+
+/* **************** HEADER  **************** */
+
+/*navbar*/
+
+.Navbar {
+  height: 50px;
+  width: 100%;
+  background-color: #303030;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 100px;
+}
+.NavText {
+  color: #ffffff;
+  height: 100%;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  display: flex;
+  align-items: center;
+  margin: 0 40px;
+  padding: 10px;
+}
+.NavText:hover {
+  background-color: #cfb995;
+}
+.fa-user {
+  margin-right: 7px;
+}
+.fa-caret-down {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+/*background image*/
+
+.backgroundHeaderImage {
+  min-height: 40vh;
+  background-image: url('../public/assets/bitmap.png');
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+/*TheJokeBible  ***  How can we make you laugh today */
+
+.TheJokeBible {
+  color: #cfb995;
+  font-size: 48px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.backgroundHeaderImage p {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 33px;
+}
+
+/* input and input hover */
+
+.inputContainer input {
+  width: 35%;
+  height: 40px;
+  color: #f9f9f9;
+  font-size: 15px;
+  background-color: transparent;
+  border: 1px #f9f9f9 solid;
+  border-right: none;
+  padding: 10px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+.inputContainer:focus-within > div {
+  background-color: white;
+}
+.inputContainer:focus-within > div span {
+  color: #303030;
+}
+.inputContainer:focus-within > input {
+  outline: none;
+  background-color: white;
+  color: #303030;
+}
+.searchIcon {
+  border: 1px #f9f9f9 solid;
+  height: 40px;
+  border-left: none;
+  font-size: 20px;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+.searchIcon span {
+  color: #f9f9f9;
+  font-size: 20px;
+  margin-right: 7px;
+}
